@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Do Hyeon', sans-serif;
+  scroll-behavior: smooth;
+}
+#bimg{
+  width: 100%;
+  height: 100vh;
+  background-image: url(1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:whitesmoke;
+  text-align: center;
+}
+nav{
+  width: 100%; 
+  height: 15vh;
+  background-image: url(8.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav .logo{
+  width: 25%;
+  text-align: center;
+  color:black;
+}
+nav .menu{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+nav .menu a{
+  width: 25%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#bimg2{
+  width: 100%;
+  height: 100vh;
+  background-image:url(5.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+#bimg3{
+  width: 100%;
+  height: 100vh;
+  background-image: url(5.jpg);
+  background-size: cover;
+  display: flex;
+  color: black;
+  align-items: center;
+  text-align: center;
+}
+#bimg4{
+  width: 100%;
+  height: 100vh;
+  background-image: url(7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  color: black;
+  align-items: center;
+  text-align: center;
+}
+.projects{
+  width: 50%;
+  margin-top: 150px;
+  margin-left: 350px;
+  width: 450px;
+  background-color:	rgba(180, 241, 241, 0.6);
+  padding: 30px 20px;
+  border-radius: 10%;
+}
+.skills{
+    width: 50%;
+    margin-left: 50px;
+    width: 450px;
+    background-color:	rgba(202, 228, 238, 0.6);
+    padding: 30px 20px;
+    border-radius: 10%;
+}
+.skills p{
+  font-family: 'Fondamento', cursive;
+  font-weight: bolder;
+}
+.about{
+  width: 50%;
+  margin-left: 50px;
+  width: 450px;
+  background-color:	rgba(235, 213, 213, 0.6);
+  padding: 30px 20px;
+  border-radius: 10%;
+}
+.img2{
+  width: 50%;
+  padding-left: 50px;
+}
+.img2 img{
+  border-radius: 20px;
+}
+.about p{
+  font-family: 'Fondamento', cursive;
+  font-weight: bolder;
+}
+.profile img{
+  height: 250px;
+  border-radius: 50%;
+}
+.profile{
+  width: 350px;
+  background-color:	rgba(0,0,0,0.6);
+  padding: 30px 0px;
+  border-radius: 10%;
+}
+i{
+  color: white;
+}
+.ptext{
+  margin-bottom: 20px;
+}
+.ptext h2{
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.ptext h3{
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: 'Fondamento', cursive;
+}
+.ptext p{
+  margin-bottom: 10px;
+  
+}
+li{
+  text-decoration: none;
+}
+.projects p{
+  font-family: 'Fondamento', cursive;
+  font-weight: bolder;
+}
+.projects h3{
+  font-family: 'Fondamento', cursive;
+  font-weight: bolder;
+}
